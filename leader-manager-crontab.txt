@@ -1,0 +1,3 @@
+* * * * * ruby /var/app/current/leader-manager.rb
+
+# EOF leader-manager-crontab.txt
