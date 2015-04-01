@@ -52,7 +52,7 @@ We wrote this solution since it is a "known problem" that an Elastic Beanstalk w
 
 The main apporach of this script is to make sure that cronjobs only run on one instance. We do this using this bashscript:
 
-	if test -e "/var/app/leader-manager-is-leader"; then
+	if test -e "/var/app/leader/leader-manager-is-leader"; then
 	    # do something cool
 		# e.g.: php /var/app/current/app/console some:symfony2:console:command
 	fi
